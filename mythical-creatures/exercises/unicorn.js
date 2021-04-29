@@ -3,6 +3,10 @@ class Unicorn {
     this.name = name;
     this.color = color;
   }
+
+  isWhite() {
+    return this.color === 'white';
+  }
 }
 
 module.exports = Unicorn;
