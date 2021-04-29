@@ -7,6 +7,10 @@ class Unicorn {
   isWhite() {
     return this.color === 'white';
   }
+
+  says(message) {
+    return `**;* ${message} *;**`;
+  }
 }
 
 module.exports = Unicorn;
